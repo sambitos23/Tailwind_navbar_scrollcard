@@ -6,15 +6,15 @@ export default class Card extends React.Component{
         return(
             <div className="min-h-screen flex items-center justify-center">
                 <div className="relative w-8/12 bg-gray-800 p-16 pb-32 rounded text-white space-y-6 overflow-hidden">
-                    <h2 className="text-red-500 text-5xl font-extrabold">
+                    <h2 className="text-red-500 text-2xl md:text-5xl font-extrabold">
                         Laravel Jobs
                     </h2>
                     
-                    <p className="text-2xl">
+                    <p className=" md:text-2xl">
                         The official Laravel job board connecting the best jobs with top talent
                     </p>
 
-                    <a href="" className="inline-block bg-red-500 py-4 px-6 rounded text-red-50 text-2xl">
+                    <a href="" className="inline-block bg-red-500 py-4 px-6 rounded text-red-50 md:text-2xl">
                         View all jobs
                     </a>
 
